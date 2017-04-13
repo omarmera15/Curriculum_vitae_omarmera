@@ -1,0 +1,18 @@
+body{
+  background: gray;
+}
+footer{
+  margin-top: 20px;
+}
+img{
+  border-radius: 10px;
+}
+video{
+  border-radius: 10px;
+}
+table{
+  border-radius: 10px;
+}
+fieldset {
+  border-radius: 10px;
+}
