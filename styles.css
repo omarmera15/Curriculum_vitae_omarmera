@@ -16,3 +16,9 @@ table{
 fieldset {
   border-radius: 10px;
 }
+textarea{
+  background-color: gray;
+}
+input{
+  background: gray;
+}
