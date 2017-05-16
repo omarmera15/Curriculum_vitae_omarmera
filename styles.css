@@ -1,5 +1,6 @@
 body{
-  background: gray;
+  background: hsl(0, 0%,65%);
+
 }
 footer{
   margin-top: 20px;
@@ -21,4 +22,68 @@ textarea{
 }
 input{
   background: gray;
+}
+h1 {
+  background-color: white;
+  padding-left: 4px;
+  margin: 5px; border-radius: 5px;
+  width: 300px;
+  text-align: center;
+}
+#logo{
+  background: url(../img/back.png);
+  margin: 1% ;
+  padding: 1% 1.25% ;
+  width: 250px; height: 250px;
+}
+#navo nav {
+  background: hsl(0, 0%,40%);
+  font-size: 1.143em;
+  height: 40px;
+  line-height: 30px;
+  margin: 0 auto 2em auto;
+  padding: 0;
+  text-align: center;
+  width: 800px;
+  float: left;
+  border-radius: 5px;
+
+}
+#navo nav li{
+  float: left; display: inline; margin: 0;
+}
+#navo nav ul {
+  list-style: none; margin: 0 auto; width: 800px;
+}
+ #navo nav a:link,  #nav a:visited {
+  display: inline-block;
+  height: 30px;
+  padding: 5px 1.5em;
+  text-decoration: none;
+  color: white;
+}
+#navo nav a:hover, #navo nav a:active ,#navo nav a:visited{
+  background: hsl(0, 0%,50%);
+  text-shadow: none !important;
+  border-radius: 5px
+  color:black;
+}
+#content{
+  padding: 0;
+  margin: 0 auto 2em auto;
+}
+ #content .label{
+  padding-left: 4px;
+  margin: 20px;
+  border-radius: 5px;
+  width: 250px;
+  text-align: center;
+}
+p , form{
+  width: 800px;
+  padding-left: 4px;
+  margin: 10px;
+}
+p::selection{
+  background: hsl(0, 0%,50%);
 }
