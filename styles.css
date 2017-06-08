@@ -32,9 +32,10 @@ h1 {
 }
 #logo{
   background: url(../img/back.png);
-  margin: 1% ;
-  padding: 1% 1.25% ;
-  width: 250px; height: 250px;
+  margin: 20px ;
+  padding: 4px 2.0px ;
+  width: 278px; height: 266px;
+  border: 20px 20px;
 }
 #navo nav {
   background: hsl(0, 0%,40%);
